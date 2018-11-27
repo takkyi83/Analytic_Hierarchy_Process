@@ -1,4 +1,4 @@
-# MCDM concept: 
+## MCDM concept: 
 eg:  you want to buy a car, there are some car models you want to have a look (a set of alternatives). Each car model (alternative) performs differently on different standards/functions, which are called "attributes". 
 
 However.. criteria are often conflict with each other. Therefore, you need to prioritise the creteria and leverage trade-off. 
@@ -11,5 +11,11 @@ So firstly, we need to set decision goals, and then making decisions.
 Differnet models MADM, MODM (decide a "design" of decision-making).. will end up with different result.
 
 
+## MCDM problem has four elements:
+- Goal
+- Criteria:
+-- Objectives
+-- Attributes
+- Alternatives
 
 
