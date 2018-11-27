@@ -1,4 +1,4 @@
-# TOPSIS Test  
+# TOPSIS (Technique for Order Preference by Similarity to the Ideal Solution) Test  
 
 # Step 0
 # Load the car selection problem data as the example
