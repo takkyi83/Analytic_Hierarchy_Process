@@ -1,5 +1,5 @@
 ```R
-# My First AHP Program
+# AHP (Analytic_Hierarchy_Process(Consistency Analysis))
 library(gdata);
 M <- diag(3);
 M[2,3]<-1/3;
