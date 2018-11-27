@@ -2,9 +2,6 @@
 # SAW Test for Car Selection
 # WITH GEO-MEAN STANDARDISATION
 #################################
-# Graduate Institute of Data Science, TMU, Class Use only
-# Author: Zheng-Yun Zhuang, Mar 09, 2017
-# All rights reserved, 2017
 
 # Create empty data frame
 y <- data.frame(matrix(data=0, ncol = 3, nrow = 4));
