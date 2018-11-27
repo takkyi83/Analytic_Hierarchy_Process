@@ -12,12 +12,17 @@ V<-c(0,0,0);
 V<-colSums(M);
 V;
 # Divide the sum of the columns back to M
+## The resulting matrix is referred to as the normalized pairwise comparison matrix.
+## All columns in the normalized pairwise comparison matrix now have a sum of 1.
 MP<-matrix(0,3,3);
 MP[,1]<-M[,1]/V[1];
 MP[,2]<-M[,2]/V[2];
 MP[,3]<-M[,3]/V[3];
 MP;
 # Compute the average of rows, to obtain the CWV
+## These averages provide an estimate of the relative priorities of the elements being compared.
+## The result is usually represented as the (relative) priority vector.
+## Thw sum of rows means is 1
 CWV<-c(0,0,0);
 CWV<-rowMeans(MP);
 CWV;
@@ -30,6 +35,10 @@ CWV2[3]<-(MP[3,1]*MP[3,2]*MP[3,3])^(1/3);
 CWV2;
 
 # Do the Consistency Analysis (In fact, inconsistency test) 
+## If the degree of consistency is acceptable, the decision process can continue.
+## If the degree of consistency is unacceptable, the DM should reconsider and possibly revise
+## the pairwise comparison judgments before proceeding with the analysis.
+
 # to believe that CWV is true based on the true opinion of the DM
 
 # Step 1 
@@ -41,7 +50,7 @@ CWV2;
 # Step 1-1
 # Sum the values across the rows to obtain a vector of 
 # values labeled “weighted sum.”
-V <- M %*% CWV;
+V <- M %*% CWV;       # '%*%' is matrix multiplication
 
 # Step 2
 # Divide the elements of the vector of weighted sums 
