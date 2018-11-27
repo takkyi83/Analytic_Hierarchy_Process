@@ -11,11 +11,13 @@ So firstly, we need to set decision goals, and then making decisions.
 Differnet models MADM, MODM (decide a "design" of decision-making).. will end up with different result.
 
 
-## MCDM problem has four elements:##
+## MCDM problem has four elements: ##
 * Goal
 * Criteria:
     * Objectives
     * Attributes
 * Alternatives
+
+
 
 
