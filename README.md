@@ -14,8 +14,8 @@ Differnet models MADM, MODM (decide a "design" of decision-making).. will end up
 ## MCDM problem has four elements:
 - Goal
 - Criteria:
--- Objectives
--- Attributes
+ - Objectives
+ - Attributes
 - Alternatives
 
 
