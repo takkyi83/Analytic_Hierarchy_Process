@@ -32,7 +32,7 @@ CWV2;
 # Do the Consistency Analysis (In fact, inconsistency test) 
 # to believe that CWV is true based on the true opinion of the DM
 
-# Step 1 (see PPT p.62 step 1)
+# Step 1 
 # Multiply each value in the first column of the pairwise 
 # comparison matrix by the relative priority of the first 
 # item considered. Same procedures for other items.
